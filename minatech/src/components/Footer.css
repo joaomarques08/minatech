@@ -1,0 +1,72 @@
+.footer-container{
+    background-color: #482929;
+
+    padding: 20px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.footer-title{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+    .footer-title {
+        margin-left: 140px;
+    }
+}
+
+.footer-icon{
+    font-size: 52px;
+    color: white;
+}
+
+.footer-text{
+    margin-top: 12px;
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.instagram-card{
+    background: #482929;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 0 80px 0 #000000A8;
+}
+
+.instagram-icon{
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.instagram-card p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+@media(max-width: 992px){
+
+    .footer-container{
+        padding: 30px;
+    }
+
+    .footer-title{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .instagram-card{
+        margin-top: 20px;
+    }
+
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}

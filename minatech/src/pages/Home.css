@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Audiowide&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url("./assets/bodyBg.png");
+    background-image: url("../assets/img/bodyBg.png");
     background-size: cover;
 
 }
@@ -77,4 +79,33 @@ body{
 
 nav{
     margin: 15px;
+}
+
+#manchete{
+    background-color: #d7e9f300;
+    margin: 70px;
+    font-family: "Ancizar Serif", serif;
+}
+#manchete-opener{
+    color: #971E1E;
+    font-size: 40px;
+}
+
+#manchete span{
+    color: #6E0000;
+    font-style: italic;
+}
+
+#manchete h1{
+    font-size: 96px;
+}
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
 }
