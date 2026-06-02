@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Ancizar';
+  src: url('../../public/fonts/AncizarSerif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '42dotsans';
+  src: url('../../public/fonts/42dotsans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
