@@ -1,5 +1,7 @@
 import "./Navbar.css"
 import logo from "../assets/img/logo.png"
+import { Link } from 'react-router-dom'
+import Programacao from '../pages/Programacao'
 
 
 export default function Navbar(){
@@ -48,9 +50,7 @@ export default function Navbar(){
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Programação
-                </a>
+                <Link class="nav-link-active" to="/Programacao">Programação</Link>
               </li>
 
               <li className="nav-item">
