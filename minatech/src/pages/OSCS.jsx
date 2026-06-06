@@ -1,7 +1,7 @@
 import "./OSCS.css";
 
-import corali from "../assets/oscs/logoCorali.png";
-import esf from "../assets/oscs/logoEngenheiros.png";
+import corali from "../assets/img/oscs/logoCorali.png";
+import esf from "../assets/img/oscs/logoEngenheiros.png";
 
 import crea from "../assets/img/oscs/crea.png";
 import neoway from "../assets/img/oscs/neoway.png";
