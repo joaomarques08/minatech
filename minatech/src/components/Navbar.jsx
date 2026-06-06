@@ -49,9 +49,7 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  FAQ
-                </a>
+                <Link class="nav-link active" to="/FAQ">FAQ</Link>
               </li>
 
               <li className="nav-item">

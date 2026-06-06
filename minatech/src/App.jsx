@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Home from './pages/Home'
+import FAQ from './pages/FAQ'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Programacao from './pages/Programacao'
 import OSCS from "./pages/OSCS";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
