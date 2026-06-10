@@ -8,7 +8,7 @@
     );
 }
 
-/* Cards OSC */
+/* Blocos OSCS */
 
 .osc-card {
     background-color: #ffffff;
@@ -71,6 +71,11 @@
 
 .partner-logo:hover {
     transform: scale(1.05);
+}
+
+/* Plano de Fundo */
+.oscs-page {
+    min-height: 100vh;
 }
 
 /* Responsividade */

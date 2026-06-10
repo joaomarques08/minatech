@@ -7,6 +7,7 @@ import sidewaysLogo from '../assets/img/home/fadedName.png'
 export default function Home() {
     return (
         <div className="page-container">
+            style={{ backgroundImage: `url(${fundo})` }}
             <section id="section-inicial">
                 <Navbar />
 

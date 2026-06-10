@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import Home from './pages/Home'
 import FAQ from './pages/FAQ'
 import Programacao from './pages/Programacao'
@@ -19,6 +21,7 @@ function App() {
             <Route path="/oscs" element={<OSCS />} />
           </Routes>
         </main>
+        <footer />
       </BrowserRouter>
     </>
   )
