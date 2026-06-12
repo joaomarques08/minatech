@@ -1,11 +1,5 @@
 .oscs-page {
     min-height: 100vh;
-    background: linear-gradient(
-        180deg,
-        #f5f5f5 0%,
-        #f7edf0 50%,
-        #f5f5f5 100%
-    );
 }
 
 /* Blocos OSCS */
@@ -71,11 +65,6 @@
 
 .partner-logo:hover {
     transform: scale(1.05);
-}
-
-/* Plano de Fundo */
-.oscs-page {
-    min-height: 100vh;
 }
 
 /* Responsividade */

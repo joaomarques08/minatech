@@ -11,7 +11,7 @@ import hogar from "../assets/img/oscs/hogar.png";
 import bediverse from "../assets/img/oscs/bediverse.png";
 import morroSilicio from "../assets/img/oscs/morrosilicio.png";
 import meSalva from "../assets/img/oscs/mesalva.png";
-import fundoOSCS from "../assets/fundoOSCS.png";
+import fundoOSCS from "../assets/img/oscs/fundoOSCS.png";
 
 function OSCS() {
     const oscs = [
