@@ -32,8 +32,8 @@ export default function Home() {
                             </p>
 
                             <div className="d-flex gap-3 mt-3 botoes-card-flutuante">
-                                <ActionButton text="Participar" />
-                                <ActionButton text="Apoie o Projeto" />
+                                <ActionButton text="Participar" href="/inscricao" />
+                                <ActionButton text="Apoie o Projeto" href="/pix" />
                             </div>
                         </div>
 
