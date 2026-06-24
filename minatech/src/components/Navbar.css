@@ -1,65 +1,105 @@
-
-.custom-navbar{
-    background: rgba(255, 255, 255, 0.274);
-    border-radius: 10px;
-    padding: 12px 28px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.295);
-    min-height: 72px;
+.navbar-container {
+    padding: 10px;
 }
 
-.navbar-brand{
+.navbar-custom {
+    background: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 12px;
+    padding: 16px 24px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-top {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-#logo{
+.navbar-logo img {
+    display: block;
     height: 50px;
-    object-fit: contain;
+    width: auto;
 }
 
-.navbar-nav{
-    gap: 18px;
-    align-items: center;
-}
-
-.nav-link{
-    color: #6E0000 !important;
-    font-size: 20px;
-    font-weight: 400;
-    transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.nav-link:hover{
-    color: #910000 !important;
-    transform: translateY(-1px);
-}
-
-.navbar-toggler{
+.navbar-toggle {
     border: none;
-    padding: 4px 8px;
+    background: transparent;
+
+    color: #6E0000;
+
+    font-size: 2rem;
+    line-height: 1;
+
+    cursor: pointer;
+
+    padding: 0;
+
+    width: auto;
+    height: auto;
 }
 
-.navbar-toggler:focus{
-    box-shadow: none;
+.navbar-links {
+    display: none;
 }
 
-nav{
-    margin: 15px;
+.navbar-links.open {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-top: 16px;
+    padding-top: 16px;
+
+    border-top: 1px solid rgba(110, 0, 0, 0.15);
 }
 
-@media(max-width: 991px){
+.navbar-links a {
+    text-decoration: none;
+    color: #6E0000;
 
-    .custom-navbar{
-        padding: 14px 18px;
+    transition: 0.2s;
+}
+
+.navbar-links a:hover {
+    color: #910000;
+}
+
+@media (min-width: 992px) {
+
+    .navbar-custom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .navbar-nav{
-        gap: 10px;
-        margin-top: 15px;
+    .navbar-toggle {
+        display: none;
     }
 
-    .nav-link{
-        padding-left: 4px;
+    .navbar-links {
+        display: flex;
+        flex-direction: row;
+
+        gap: 18px;
+
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbar-custom {
+        padding: 12px 16px;
     }
 
+    .navbar-logo img {
+        height: 40px;
+    }
 }
