@@ -203,10 +203,11 @@ function OSCS() {
             <h2>Conheça a equipe</h2>
 
             <p>
-                A alma da jornada MinaTech, Tatiana Takimoto transforma propósito 
-                em movimento e amor em ação, inspirando mulheres a ocuparem 
-                seu espaço na tecnologia, construindo conexões, oportunidades e 
-                caminhos para um futuro mais inclusivo e inovador.
+                Somos uma equipe formada por 11 mulheres apaixonadas por tecnologia, inovação e impacto social. 
+                Cada uma traz sua experiência única para construir pontes entre o conhecimento técnico e a transformação
+                da realidade de outras mulheres. Juntas, acreditamos que diversidade fortalece soluções e que o 
+                futuro da tecnologia precisa ser construído com mais vozes femininas. Nossa equipe multidisciplinar 
+                atua em frentes que vão da gestão e comunicação ao desenvolvimento técnico, sempre guiadas pelo mesmo propósito: abrir caminhos para quem vem depois.
             </p>
 
         </div>

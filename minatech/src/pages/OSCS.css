@@ -1,6 +1,15 @@
 /* Plano de Fundo */
 .oscs-page {
     min-height: 100vh;
+    padding-top: 80px;
+}
+.navbar {
+  background-color: transparent;
+  position: absolute; /* ou fixed se quiser que siga o scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 /* Carrosel */
