@@ -61,12 +61,14 @@
 .navbar-links a {
     text-decoration: none;
     color: #6E0000;
-
+    font-size: 20px;
     transition: 0.2s;
 }
 
 .navbar-links a:hover {
     color: #910000;
+    transform: translateY(-2px);
+    border-bottom: 2px solid #9100009a;
 }
 
 @media (min-width: 992px) {

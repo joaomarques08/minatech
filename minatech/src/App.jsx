@@ -5,7 +5,7 @@ import FAQ from './pages/FAQ'
 import Programacao from './pages/Programacao'
 import OSCS from "./pages/OSCS";
 import PIX from './pages/PIX';
-import Formulario from "./pages/formulario";
+import Formulario from "./pages/Formulario";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {

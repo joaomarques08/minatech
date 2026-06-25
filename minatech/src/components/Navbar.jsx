@@ -24,9 +24,9 @@ export default function Navbar() {
         </div>
 
         <div className={`navbar-links ${open ? "open" : ""}`}>
-          <a href="#">Quem somos</a>
+          <Link to="/">Quem somos</Link>
           <Link to="/OSCS">OSCS</Link>
-          <Link to="/Inscricao">Inscrição</Link>
+          <Link to="/Formulario">Inscrição</Link>
           <Link to="/Programacao">Programação</Link>
           <Link to="/FAQ">FAQ</Link>
           <a href="#">Contato</a>
