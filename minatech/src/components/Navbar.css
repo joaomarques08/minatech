@@ -66,9 +66,9 @@
 }
 
 .navbar-links a:hover {
-    color: #910000;
+    color: #e23a5e;
     transform: translateY(-2px);
-    border-bottom: 2px solid #9100009a;
+    border-bottom: 2px solid #e23a5e;
 }
 
 @media (min-width: 992px) {

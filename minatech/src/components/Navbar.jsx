@@ -29,7 +29,18 @@ export default function Navbar() {
           <Link to="/Formulario">Inscrição</Link>
           <Link to="/Programacao">Programação</Link>
           <Link to="/FAQ">FAQ</Link>
-          <a href="#">Contato</a>
+          <a
+            href="#footerFinal"
+            onClick={(e) => {
+              e.preventDefault();
+              setOpen(false); // fecha o menu mobile
+              document.getElementById("footerFinal")?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+          >
+            Contato
+          </a>
         </div>
       </nav>
     </header>

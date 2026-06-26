@@ -2,7 +2,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer-container">
+    <footer className="footer-container" id="footerFinal">
       <div className="container-fluid footer-inner">
         <div className="row g-4 align-items-start">
 
