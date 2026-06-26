@@ -1,4 +1,8 @@
 /* Plano de Fundo */
+body {
+    text-align: justify;
+}
+
 .oscs-page {
     min-height: 100vh;
     padding-top: 20px;
