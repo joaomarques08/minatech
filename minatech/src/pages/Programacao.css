@@ -183,6 +183,7 @@
 
 .btn-seta:hover {
     color: #6E0000;
+    background-color: transparent;
     transform: translateY(-50%) scale(1.1);
 }
 
