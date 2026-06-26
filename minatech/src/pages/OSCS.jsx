@@ -123,7 +123,7 @@ function OSCS() {
 
     return (
     <>
-    <Navbar />
+    
         <main         
         className="oscs-page"
         style={{
@@ -132,6 +132,7 @@ function OSCS() {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"
         }}>
+        <Navbar />
             <section className="container py-5">
 
     <div className="row align-items-center">
