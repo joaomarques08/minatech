@@ -40,7 +40,7 @@ export default function Home() {
                             </p>
                             <div className="d-flex flex-wrap gap-2 gap-md-3 mt-3 botoes-card-flutuante">
                                 <ActionButton to={"/Formulario"} text="Participar" />
-                                <ActionButton to="" text="Apoie o Projeto" />
+                                <ActionButton to={"/pix"} text="Apoie o Projeto" />
                             </div>
                         </div>
                         <div className="col-auto card-flutuante-visual pe-3">
