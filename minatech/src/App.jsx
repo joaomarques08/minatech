@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import Home from './pages/Home'
 import FAQ from './pages/FAQ'
 import Programacao from './pages/Programacao'
@@ -12,7 +14,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Programacao" element={<Programacao />} />
@@ -21,7 +22,6 @@ function App() {
             <Route path="/formulario" element={<Formulario />} />
             <Route path="/pix" element={<PIX />} />
           </Routes>
-        </main>
       </BrowserRouter>
     </>
   )
