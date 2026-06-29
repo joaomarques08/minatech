@@ -62,16 +62,6 @@ npm run dev
 
 ---
 
-### Página Inicial
-
-![Home](docs/home.png)
-
-### Sobre
-
-![Sobre](docs/sobre.png)
-
----
-
 ## 🎯 Objetivo
 
 Este projeto foi desenvolvido como parte de um trabalho acadêmico, com foco na aplicação dos conhecimentos adquiridos durante o curso de desenvolvimento web.
